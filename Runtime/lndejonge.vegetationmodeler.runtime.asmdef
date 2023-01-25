@@ -1,0 +1,17 @@
+{
+    "name": "lndejonge.vegetationmodeler.runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ad73342e782e20c45b3a0271b6ddb937",
+        "GUID:d8b63aba1907145bea998dd612889d6b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

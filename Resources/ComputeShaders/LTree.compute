@@ -1,0 +1,60 @@
+//// Each #kernel tells which function to compile; you can have many kernels
+//#pragma kernel CSMain
+//
+//struct BranchInformation
+//{
+//    float l;
+//    float angle;
+//    float w0;
+//    float w2;
+//    float3 pos;
+//};
+//
+//float _StartLength;
+//float _StartWidth;
+//
+//RWStructuredBuffer<BranchInformation> _Result;
+//
+//[numthreads(8,8,1)]
+//void CSMain (uint3 id : SV_DispatchThreadID)
+//{
+//    
+//}
+//
+//BranchInformation SetBranchInfo(float l, float angle, float w0, float w2, float3 pos)
+//{
+//    BranchInformation b;
+//    b.l = l;
+//    b.angle = angle;
+//    b.w0 = w0;
+//    b.w2 = w2;
+//    b.pos = pos;
+//}
+//
+//void GenerateBranch()
+//{
+//    float3 pos = float3(0, 0, 0);
+//    float le = _StartLength;
+//    float we = _StartWidth;
+//
+//    for (int i = 0; i < 4; i++)
+//    {
+//        le *= 0.67f;
+//
+//        pos.y -= le;
+//        float newW = we * 0.5;
+//
+//        float3 bP2 = pos;
+//
+//        BranchInformation b1 = SetBranchInfo(le, 25, we, newW, pos);
+//
+//        BranchInformation b2 = SetBranchInfo(le, 25, we, newW, bP2);
+//
+//        _Result
+//
+//        baseW = newW;
+//    }
+//
+//   
+//}
+//

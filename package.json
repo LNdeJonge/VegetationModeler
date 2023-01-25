@@ -1,0 +1,20 @@
+{
+  "name": "com.lndejonge.vegetationmodeler",
+  "version": "1.0.0",
+  "displayName": "Vegetation Modeler",
+  "description": "",
+  "unity": "2022.1",
+  "unityRelease": "0b5",
+  "dependencies": {
+  "com.unity.mathematics": "1.0.0"
+ },
+ "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Lotte de Jonge",
+    "email": "LN.deJonge@outlook.com"
+  }
+}
